@@ -1,21 +1,19 @@
 # RepoReloadPoc
 
-**TODO: Add description**
+A proof-of-concept for using `Repo.reload/2` with Ecto schemas with multiple primary keys. 
 
-## Installation
+## Getting started
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `repo_reload_poc` to your list of dependencies in `mix.exs`:
+- Clone the repo: `git clone https://github.com/arcanemachine/repo_reload_poc`
 
-```elixir
-def deps do
-  [
-    {:repo_reload_poc, "~> 0.1.0"}
-  ]
-end
-```
+- Set up a fresh Postgres database: `mix ecto.reset`
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/repo_reload_poc>.
+- Run the tests: `mix test`
 
+The main code is in `lib/repo_reload_poc.ex`. Let me know what you think!
+
+Ecto feature proposal thread: https://groups.google.com/g/elixir-ecto/c/nmMpqohCztc
+
+Or, [open a GitHub Issue](https://github.com/arcanemachine/repo_reload_poc/issues/new) and give me your feedback that way.
+
+Thanks for taking a look!
