@@ -8,8 +8,7 @@ defmodule RepoReloadPoc.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # Starts a worker by calling: RepoReloadPoc.Worker.start_link(arg)
-      # {RepoReloadPoc.Worker, arg}
+      RepoReloadPoc.Repo
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
